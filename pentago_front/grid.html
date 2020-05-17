@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pentago Grid Online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="grid_wrapper">
+        <div id="player1">
+            <div style="margin-top: 20px"></div>
+            <h3>Player 1</h3>
+        </div>
+
+        <div id="board">
+            <button type="button" id="arrowUp1" class="btn btn-outline-link"><i class="fas fa-chevron-up fa-2x"
+                    style="color: grey"></i></button>
+            <button type="button" id="arrowUp2" class="btn btn-outline-link"><i class="fas fa-chevron-up fa-2x"
+                    style="color: grey"></i></button>
+            <button type="button" id="arrowDown3" class="btn btn-outline-link"><i class="fas fa-chevron-down fa-2x"
+                    style="color: grey"></i></button>
+            <button type="button" id="arrowDown4" class="btn btn-outline-link"><i class="fas fa-chevron-down fa-2x"
+                    style="color: grey"></i></button>
+            <div id="quad1">
+                <div id="q0" class="circle bgcGreen"></div>
+                <div id="q1" class="circle bgcGreen"></div>
+                <div id="q2" class="circle bgcGreen"></div>
+                <div id="q3" class="circle bgcGreen"></div>
+                <div id="q4" class="circle bgcGreen"></div>
+                <div id="q5" class="circle bgcGreen"></div>
+                <div id="q6" class="circle bgcGreen"></div>
+                <div id="q7" class="circle bgcGreen"></div>
+                <div id="q8" class="circle bgcGreen"></div>
+            </div>
+            <div id="quad2">
+                <div id="qq0" class="circle bgcGreen"></div>
+                <div id="qq1" class="circle bgcGreen"></div>
+                <div id="qq2" class="circle bgcGreen"></div>
+                <div id="qq3" class="circle bgcGreen"></div>
+                <div id="qq4" class="circle bgcGreen"></div>
+                <div id="qq5" class="circle bgcGreen"></div>
+                <div id="qq6" class="circle bgcGreen"></div>
+                <div id="qq7" class="circle bgcGreen"></div>
+                <div id="qq8" class="circle bgcGreen"></div>
+            </div>
+            <div id="quad3">
+                <div id="qqq0" class="circle bgcGreen"></div>
+                <div id="qqq1" class="circle bgcGreen"></div>
+                <div id="qqq2" class="circle bgcGreen"></div>
+                <div id="qqq3" class="circle bgcGreen"></div>
+                <div id="qqq4" class="circle bgcGreen"></div>
+                <div id="qqq5" class="circle bgcGreen"></div>
+                <div id="qqq6" class="circle bgcGreen"></div>
+                <div id="qqq7" class="circle bgcGreen"></div>
+                <div id="qqq8" class="circle bgcGreen"></div>
+            </div>
+            <div id="quad4">
+                <div id="qqqq0" class="circle bgcGreen"></div>
+                <div id="qqqq1" class="circle bgcGreen"></div>
+                <div id="qqqq2" class="circle bgcGreen"></div>
+                <div id="qqqq3" class="circle bgcGreen"></div>
+                <div id="qqqq4" class="circle bgcGreen"></div>
+                <div id="qqqq5" class="circle bgcGreen"></div>
+                <div id="qqqq6" class="circle bgcGreen"></div>
+                <div id="qqqq7" class="circle bgcGreen"></div>
+                <div id="qqqq8" class="circle bgcGreen"></div>
+            </div>
+        </div>
+        <div id="player2">
+            <div style="margin-top: 20px"></div>
+            <h3>Player 2</h3>
+            <div id="id2" style="display: none">Player 2 move</div>
+        </div>
+        <div id="gameover"
+            style="color: red;text-align:center;padding-top: 45vh;text-transform: uppercase;font-size: 50px">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+
+        <!-- <div id="instructions" class="words">
+            <h2>
+                How to Play
+            </h2>
+            <p>
+                Place a stone by clicking any space
+            </p>
+            <p>
+                Spin a quadrant by dragging and rotating 90 degrees
+            </p>
+            <p>
+                First player to get 5 in a row wins!
+            </p>
+        </div> -->
+
+</body>
+
+</html>

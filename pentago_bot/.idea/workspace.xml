@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f66a463-11a5-4e77-a58f-bc0cc86a6883" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="c30f45b6-7938-450f-966b-bf2e0cd2ebbb" />
+  <component name="ProjectId" id="1cOO2ULtiO8AbsTC9nXq2OArMOn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.send_requests">
+    <configuration name="board" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pentago_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/board.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minimax" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pentago_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minimax.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_requests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pentago_bot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_requests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.send_requests" />
+        <item itemvalue="Python.minimax" />
+        <item itemvalue="Python.board" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f66a463-11a5-4e77-a58f-bc0cc86a6883" name="Default Changelist" comment="" />
+      <created>1590395965940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590395965940</updated>
+      <workItem from="1590395967527" duration="29803000" />
+      <workItem from="1590441407264" duration="516000" />
+      <workItem from="1590442611188" duration="8588000" />
+      <workItem from="1590457159486" duration="550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1431" height="238" key="GridCell.Tab.0.bottom" timestamp="1590457709337">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="238" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1590457709337" />
+    <state width="1431" height="238" key="GridCell.Tab.0.center" timestamp="1590457709337">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="238" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1590457709337" />
+    <state width="1431" height="238" key="GridCell.Tab.0.left" timestamp="1590457709337">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="238" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1590457709337" />
+    <state width="1431" height="238" key="GridCell.Tab.0.right" timestamp="1590457709337">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="238" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1590457709337" />
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1590442617458">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="496" y="256" key="com.intellij.ide.util.TipDialog/62.0.1474.864@62.0.1474.864" timestamp="1590442617458" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590405049213">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1590405049213" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pentago_bot$board.coverage" NAME="board Coverage Results" MODIFIED="1590416394127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pentago_bot$minimax.coverage" NAME="minimax Coverage Results" MODIFIED="1590441611452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pentago_bot$send_requests.coverage" NAME="send_requests Coverage Results" MODIFIED="1590457650517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

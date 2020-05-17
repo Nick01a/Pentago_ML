@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(250, 233, 233);
+    overflow-y: hidden;
+}
+#board,
+#instructions {
+    margin: auto;
+    width: 604px;
+}
+#grid_wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "player1 board player2";
+   
+}
+#board {
+    grid-area: board;
+    display: grid;
+    grid-template-columns: auto 250px 250px auto;
+    grid-template-rows: auto 250px 250px auto;
+    grid-template-areas:
+        ".   arrowLeft1     arrowRight2   ."
+        "arrowUp1 quad1 quad2 arrowUp2"
+        "arrowDown3 quad3 quad4 arrowDown4"
+        ".   arrowLeft3     arrowRight4   .";
+    column-gap: 2px;
+    row-gap: 2px;
+    /* justify-items: center;
+    align-items: center; */
+}
+#quad1{
+    grid-area: quad1;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "q0 q3 q6"
+        "q1 q4 q7"
+        "q2 q5 q8";
+    justify-items: center;
+    align-items: center;
+}
+#q0{
+    grid-area: q0;
+}
+#q1{
+    grid-area: q1;
+}
+#q2{
+    grid-area: q2;
+}
+#q3{
+    grid-area: q3;
+}
+#q4{
+    grid-area: q4;
+}
+#q5{
+    grid-area: q5;
+}
+#q6{
+    grid-area: q6;
+}
+#q7{
+    grid-area: q7;
+}
+#q8{
+    grid-area: q8;
+}
+#arrowUp1{
+    grid-area: arrowUp1;
+    justify-items: center;
+    align-items: center;
+}
+#arrowUp2{
+    grid-area: arrowUp2;
+}
+#arrowDown3{
+    grid-area: arrowDown3;
+
+}
+#arrowDown4{
+    grid-area: arrowDown4;
+}
+#arrowLeft1{
+    grid-area: arrowLeft1;
+}
+#arrowRight2{
+    grid-area: arrowRight2;
+}
+#arrowLeft3{
+    grid-area: arrowLeft3;
+}
+#arrowRight4{
+    grid-area: arrowRight4;
+}
+ 
+#quad2{
+    grid-area: quad2;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "qq0 qq3 qq6"
+        "qq1 qq4 qq7"
+        "qq2 qq5 qq8";
+    justify-items: center;
+    align-items: center;
+}
+#qq0{
+    grid-area: qq0;
+}
+#qq1{
+    grid-area: qq1;
+}
+#qq2{
+    grid-area: qq2;
+}
+#qq3{
+    grid-area: qq3;
+}
+#qq4{
+    grid-area: qq4;
+}
+#qq5{
+    grid-area: qq5;
+}
+#qq6{
+    grid-area: qq6;
+}
+#qq7{
+    grid-area: qq7;
+}
+#qq8{
+    grid-area: qq8;
+}
+*:focus{
+    outline: none;
+}
+#quad3{
+    grid-area: quad3;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "qqq0 qqq3 qqq6"
+        "qqq1 qqq4 qqq7"
+        "qqq2 qqq5 qqq8";
+    justify-items: center;
+    align-items: center;
+}
+#qqq0{
+    grid-area: qqq0;
+}
+#qqq1{
+    grid-area: qqq1;
+}
+#qqq2{
+    grid-area: qqq2;
+}
+#qqq3{
+    grid-area: qqq3;
+}
+#qqq4{
+    grid-area: qqq4;
+}
+#qqq5{
+    grid-area: qqq5;
+}
+#qqq6{
+    grid-area: qqq6;
+}
+#qqq7{
+    grid-area: qqq7;
+}
+#qqq8{
+    grid-area: qqq8;
+}
+#quad4{
+    grid-area: quad4;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: darkgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "qqqq0 qqqq3 qqqq6"
+        "qqqq1 qqqq4 qqqq7"
+        "qqqq2 qqqq5 qqqq8";
+    justify-items: center;
+    align-items: center;
+}
+#qqqq0{
+    grid-area: qqqq0;
+}
+#qqqq1{
+    grid-area: qqqq1;
+}
+#qqqq2{
+    grid-area: qqqq2;
+}
+#qqqq3{
+    grid-area: qqqq3;
+}
+#qqqq4{
+    grid-area: qqqq4;
+}
+#qqqq5{
+    grid-area: qqqq5;
+}
+#qqqq6{
+    grid-area: qqqq6;
+}
+#qqqq7{
+    grid-area: qqqq7;
+}
+#qqqq8{
+    grid-area: qqqq8;
+}
+.circle{
+    width: 54px;
+    height: 54px;
+    border-radius: 50% 50%;
+}
+.bgcGreen{
+    background-color: green;
+}
+.bgcWhite{
+    background-color: white;
+}
+.bgcBlack{
+    background-color: black;
+}
+/* button{
+    width: 30px;
+    height: 25px;
+} */
+#player1{
+    background: black;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+#player2 {
+    text-align: center;
+    background: white;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+}
+h3 {
+    font-size: 24px;
+}
+#gameover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 100vh;
+    background: rgba(82,92,101,0.6);
+    display: none;
+}
+
+.words {
+    color: black;
+}
